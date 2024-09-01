@@ -13,30 +13,34 @@
     <link rel="stylesheet" href="./CSS/Index.css" />
   </head>
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top ">
-        <a class="navbar-brand "  >Sajidha</a>
-        <button class="navbar-toggler navtog " type="button " data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand">Sajidha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link " href="#hero">Home <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#aboutme">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  ]" href="#project">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link  " href="#contact">Contact</a>
-              </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#hero">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-  </header>
+    </nav>
+</header>
+
+<!-- Add these scripts before the closing </body> tag -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
   <body style="font-family: monospace;">
     <!-- Hero Section -->
     <section class="hero" id="hero">
@@ -116,7 +120,7 @@
       <div class="row">
         <!-- Card 1 -->
         <div class="col-12 col-sm-6 col-md-4 mb-4">
-          <div class="card">
+          <div class="card" data-category="bootstrap">
             <img src="./Assets/project1.jpg" class="card-img-top" alt="Project Image" />
             <div class="card-body">
               <h4 class="card-title">Blog website using Bootstrap</h4>
@@ -127,7 +131,7 @@
     
         <!-- Card 2 -->
         <div class="col-12 col-sm-6 col-md-4 mb-4">
-          <div class="card">
+          <div class="card" data-category="html">
             <img src="./Assets/project2.jpg" class="card-img-top" alt="Project Image" />
             <div class="card-body">
               <h4 class="card-title">University Youth Festival Website</h4>
@@ -138,7 +142,7 @@
     
         <!-- Card 3 -->
         <div class="col-12 col-sm-6 col-md-4 mb-4">
-          <div class="card">
+          <div class="card" data-category="react">
             <img src="./Assets/project3.jpg" class="card-img-top" alt="Project Image" />
             <div class="card-body">
               <h4 class="card-title">Multipage React App</h4>
@@ -152,8 +156,8 @@
       <div class="text-center my-4">
         <button class="btn-cta" onclick="filterCards('all')">All</button>
         <button class="btn-cta" onclick="filterCards('bootstrap')">Bootstrap</button>
-        <button class="btn-cta" onclick="filterCards('HTML')">HTML</button>
-        <button class="btn-cta" onclick="filterCards('React')">React</button>
+        <button class="btn-cta" onclick="filterCards('html')">HTML</button>
+        <button class="btn-cta" onclick="filterCards('react')">React</button>
       </div>
     </section>
     <div class="row">
