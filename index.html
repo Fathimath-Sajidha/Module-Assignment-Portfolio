@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./CSS/Index.css" />
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand "  >Sajidha</a>
+        <button class="navbar-toggler navtog " type="button " data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link " href="#hero">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  ]" href="#project">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  " href="#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <body style="font-family: monospace;">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <h2 style="color: rgb(120, 137, 141)">Hello!</h2>
+        <h1>I'm Sajidha</h1>
+        <p>
+          Welcome to my portfolio!<br />
+          I'm an aspiring full-stack web developer<br />
+        </p>
+        <hr />
+        <a href="#aboutme" class="btn btn-cta"> About Me</a>
+      </div>
+    </section>
+
+    <!-- Aboutme Section -->
+    <section id="aboutme" class="about">
+        <div class="row">
+          
+            <div class="col-md-1"></div>
+            
+            <div class="col-lg-9">
+                       <h1><b>About me</b></h1><br><br>
+                       <hr>
+                       <div >
+                        <img src="./Assets/mypic.jpg" class="rounded-circle img-fluid  " alt="" style="width: 30%; height: 30%; border-radius: 50%;">
+                      </div>
+                      <br><br>
+                  
+                        <h5>
+                         Aspiring Full Stack Developer on a quest of master the art of building end-to-end solutions.
+                         Actively building proficiency in HTML, CSS, JAVASCRIPT, Bootstrap, React.js, Node.js, MongoDB.
+                          Enthusiastic about problem-solving and creating efficient, 
+                          user-friendly solutions and to contribute to innovative projects and collaborate with fellow developers.
+                           Let's connect and explore the world of Full Stack Development together.
+                        </h5>
+                        <br><br><hr>
+                        <div class="skill">
+                            <h1><b>Skills</b></h1>
+                            <br />
+                            <ul>
+                              <li>
+                                <h4><b>Front-End:</b></h4>
+                                <h5>HTML,CSS,JavaScript,React</h5>
+                              </li>
+                              <li>
+                                <h4><b>Back-End:</b></h4>
+                                <h5>Node.js,Express</h5>
+                              </li>
+                              <li>
+                                <h4><b>Programming Languages:</b></h4>
+                                <h5>C,C++,C#,Java</h5>
+                              </li>
+                              <li>
+                                <h4><b>Databases:</b></h4>
+                                <h5>MongoDB,MySql</h5>
+                              </li>
+                              <li>
+                                <h4><b>Version Control:</b></h4>
+                                <h5>Git,GitHub</h5>
+                              </li>
+                            </ul>
+                          </div>
+              </div>
+           
+          </div>
+    
+    <!-- Skill Section-->
+    <section id="skills" class="skillsec">
+      <div class="col">
+       
+      </div>
+    </section>
+    </section>
+    <!-- Project Section-->
+    <section class="container my-5" id="project">
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+          <div class="card">
+            <img src="./Assets/project1.jpg" class="card-img-top" alt="Project Image" />
+            <div class="card-body">
+              <h4 class="card-title">Blog website using Bootstrap</h4>
+              <a href="#project1" class="btn-cta">View Project</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+          <div class="card">
+            <img src="./Assets/project2.jpg" class="card-img-top" alt="Project Image" />
+            <div class="card-body">
+              <h4 class="card-title">University Youth Festival Website</h4>
+              <a href="#project2" class="btn-cta">View Project</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-4 mb-4">
+          <div class="card">
+            <img src="./Assets/project3.jpg" class="card-img-top" alt="Project Image" />
+            <div class="card-body">
+              <h4 class="card-title">Multipage React App</h4>
+              <a href="#project3" class="btn-cta">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Filter Buttons -->
+      <div class="text-center my-4">
+        <button class="btn-cta" onclick="filterCards('all')">All</button>
+        <button class="btn-cta" onclick="filterCards('bootstrap')">Bootstrap</button>
+        <button class="btn-cta" onclick="filterCards('HTML')">HTML</button>
+        <button class="btn-cta" onclick="filterCards('React')">React</button>
+      </div>
+    </section>
+    <div class="row">
+    <section id="project1" class="project-container">
+      <div class="container">
+        <br><br><br>
+        <h1>Blog website using bootstrap</h1>
+        <br />
+        <h4>
+       
+        Description: Developed a responsive  blog website using Bootstrap, HTML, CSS. The website includes features such as a blog post layout, navigation menu, and responsive design optimized for mobile and desktop views.
+        Technologies Used: Bootstrap, HTML, CSS</h4>
+       
+
+        <br /><br><hr><br>
+      </div>
+    </section>
+    <br><br><br><br>
+    <section id="project2" class="project-container">
+      <div class="container">
+        <h1>University Youth Festival Website</h1>
+        <br />
+        <h4>
+          The project entitled “University Fest ” is a website, which
+          provides students to register for university kalolsav through online.
+          Students can visit the website from the comfort of their homes and
+          register for the program items they wish to participate by signing in
+          with their college name and password provided by the university at
+          their home. The students can search for the details of the scheduling
+          of the events and they can know the latest informations about the
+          kalolsav including the result. For this software ASP.NET is used as a
+          front end and SQL SERVER is used as backend.
+        </h4>
+       
+
+        <br /><br><hr><br>
+      </div>
+      <section id="project1" class="project-container">
+        <div class="container">
+          <br><br><br>
+          <h1>Multi-Page react Application</h1>
+          <br />
+          <h4>
+            Description: Developed a multipage React application featuring country data and a to-do list with routing. Implemented React Router for navigation between pages, allowing users to view country information and manage tasks efficiently.
+            Technologies Used: React, React Router, JavaScript, HTML, CSS
+    
+         </h4>
+         
+  
+          <br /><br><hr><br>
+        </div>
+      </section>
+    </section>
+  </div>
+    <div class="row"><hr /></div>
+    <div></div>
+    <!-- Contact Section-->
+    <section id="contact" class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 "> 
+           
+           <form id="contactForm" class="contact-form">
+          
+              <label for="name"> Name</label>
+              <input type="text" id="name" /><br /><br />
+      
+              <label for="number"> Mobile</label>
+              <input type="text" id="number"/><br /><br />
+      
+              <label for="email">Email</label>
+              <input type="email" id="email" /><br /><br />
+      
+              <label for="message">Message</label><br />
+              <textarea id="message" placeholder="Type your message here"></textarea><br /><br />
+          
+      
+          <button type="submit" class="btn btn-cta text-light">Submit</button>
+          <span id="response" class="text-center text-light"></span>
+      </form>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <p style="color: darkgray">created by sajidha</p>
+    </footer>
+<script src="./JS/Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

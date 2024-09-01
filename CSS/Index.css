@@ -1,0 +1,198 @@
+body
+{
+    background: linear-gradient(to right, #000000, #002c25);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero{
+    background: linear-gradient(to right, #000000, #002c25);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.about{
+    color: rgb(7, 90, 90);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.intro{
+    padding: 20px;
+    border-radius: 6px;
+   
+}
+.hero h1 {
+    font-size: 4rem;
+    color: rgb(7, 90, 90);
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: rgb(120, 137, 141);
+    align-items: center;
+    font-family: monospace;
+}
+
+/* Button styling */
+.btn-cta {
+    color: rgb(124, 214, 230);
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid 2px rgb(7, 90, 90);
+    background: transparent;
+    text-decoration: none;
+    
+}
+.btn-cta:hover{
+    background-color: rgb(7, 90, 90);
+
+}
+.navbar {
+   background: linear-gradient(to right, #000000, #002c25);
+   padding: 30px;
+   
+}
+footer{
+   background: linear-gradient(to right, #000000, #002c25);
+
+}
+.nav-link{
+    align-content:end;
+    justify-items: end;
+ }
+ footer{
+    background: linear-gradient(to right, #000000, #002c25);
+ }
+ .nav-link,.navbar-brand{
+    font-weight: 4rem;
+    color: rgb(123, 160, 160);
+    text-decoration: none;
+ }
+ nav {
+    color: rgb(123, 160, 160);
+ }
+ .navbar a:hover{
+    color: aqua;
+    text-decoration: none;
+ }
+
+.about li {
+    color: rgb(21, 189, 189);
+    font-family:monospace;
+    text-overflow: ellipsis;
+    
+}
+.about h1,h3 {
+    color: rgb(21, 189, 189);
+    font-family:monospace;
+    text-overflow: ellipsis;
+}
+.card-container {
+    background: linear-gradient(to right, #000000, #002c25);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+  }
+  .card {
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(24, 180, 219, 0.1);
+    overflow: hidden;
+    width: 18rem;
+    transition: transform 0.3s ease;
+    height: 28rem;
+    
+  }
+  
+  /* Hover effect for the card */
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card content styling */
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-body h3 {
+    font-size: 1.5rem;
+     
+      .card-cover {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+     
+    
+  }
+  .card-body{
+    padding: 20px;
+    color: #5b7b85;
+  }
+  .card-title{
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    
+  }
+  .project-container h1{
+    color: #5b7b85;
+  }
+  #project1,#project2,#project3 h3{
+    color: #8cc6d4;
+  }
+  #project1,#project2,#project3 h1{
+    color: #085463;
+  }
+  
+  
+  
+  #contact{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+  #contactForm{
+    color: rgb(7, 90, 90);
+    align-items: right;
+    justify-content: right;
+
+}
+input,textarea{
+    background: transparent;
+    border: solid 2px rgb(7, 90, 90);
+    border-radius: 8px;
+
+}
+input:hover{
+    border:solid 2px rgb(7, 46, 53);
+}
+label{
+  color: #55666b;
+}
